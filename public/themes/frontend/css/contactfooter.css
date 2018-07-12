@@ -1,0 +1,13 @@
+.block7 a{
+    color: #999;
+    text-decoration: none;
+}
+
+.contact_block a:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.contact_footer_icon_web{
+	min-height:21px;
+}

@@ -1,0 +1,242 @@
+/*******************************DropDownLanguageMenu*******************************/
+ul.customDropdownMenu>li:after{
+    border: solid black;
+    content: '';
+    height: 0;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    width: 0;
+    border-width: 4px;
+    border-bottom: solid transparent;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+ul.customDropdownMenu li:hover{
+    cursor: pointer;
+    background-color: #e2e2e4;
+    color: #47596f;
+}
+ul.customDropdownMenu li:active{
+    color: #000;
+}
+ul.customDropdownMenu ul{
+    margin: 9px 0px 0px -13px;
+    height: auto;        
+    width: auto;
+    z-index: 1000;
+    position: relative;
+    display: none;
+}
+ul.customDropdownMenu ul:before{
+    border: solid #e2e2e4;
+    content: '';
+    height: 0;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    width: 0;
+    border-width: 10px;
+    border-top: solid transparent; 
+    position: absolute;
+    top: -12px;
+    left: 10px;
+}
+ul.customDropdownMenu ul:after{
+    border: solid white;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    border-width: 10px;
+    border-top: solid transparent; 
+    position: absolute;
+    width: 0;
+    content: '';
+    height: 0;
+    top: -10px;
+    left: 10px;
+}
+ul.customDropdownMenu ul li{
+    display: block; 
+    padding: 4px;
+    margin-top: 4px;
+}
+/*******************************End DropDownLanguageMenu*******************************/
+
+/*******************************ParmasArea*******************************/
+div.paramArea{
+    display: table-row;
+    height: 40px;
+}
+div.paramArea div.paramVar,
+div.paramArea div.paramVal
+{
+    display: table-cell;
+    vertical-align: top;
+}
+div.paramArea div label,
+div.paramArea div select,
+div.paramArea div input{
+    width: auto;
+}
+div.paramTextArea label{
+    width: 14%;
+}
+div.paramTextArea input, 
+div.paramTextArea textarea
+{
+    width: 86%;
+}
+div.paramTextArea div.paramTextAreaVar{
+    margin-bottom: 10px;
+}
+/*div.paramAddButton input.btnAddParam{
+    background-color: #e2e2e4;
+    border: 1px solid rgb(219, 215, 215);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+div.paramAddButton input.btnAddParam:hover{
+    background-color: #39b1a8;
+}
+div.paramAddButton input.btnAddParam:active{
+    padding-left: 0.1%;
+}*/
+
+/*******************************End ParmasArea*******************************/
+
+/*******************************ON-OFF Button*******************************/
+div.ON-OFF{
+    border: 1px solid graytext;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+}
+div.ON-OFF>div.divSwitch{
+    position: relative;
+    width: 200%;
+}
+div.ON-OFF>div.divSwitch>input.chkboxON-OFF{
+    display: none;
+}
+div.ON-OFF>div.divSwitch>div{
+    padding: 0px;
+    width: 50%;
+    height: 29px;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+div.ON-OFF>div.divSwitch>div.ON{
+    background: #2A3542;
+    color: #41cac0;
+
+}
+div.ON-OFF>div.divSwitch>divSwitch>div.OFF{
+    background: #bdc3c7;
+    color: white;
+    cursor: pointer;
+}
+div.ON-OFF>div.divSwitch>div>span{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    padding: 3px;
+}
+div.ON-OFF>div.divSwitch>div.ON>span{
+    float: left;
+}
+div.ON-OFF>div.divSwitch>div.OFF>span{
+    float: right;
+}
+div.ON-OFF>div.divSwitch>div>span.lbON,
+div.ON-OFF>div.divSwitch>div>span.lbOFF{
+    padding: 0px;
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+    background: #e2e2e4;
+}
+div.ON-OFF>div.divSwitch>div>span.lbON{
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+div.ON-OFF>div.divSwitch>div>span.lbOFF{
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*******************************END ON-OFF Button*******************************/
+
+/*******************************Reply Feedback*******************************/
+div.col-lg-8>section.panel,
+div.col-lg-4>section.panel{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    height: 100%;
+}
+div.col-lg-4>section.panel{
+    font-size: 96%;
+}
+div.col-lg-8>section.panel>header.panel-heading{
+    background: #CA8;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.col-lg-4>section.panel>div.weather-category>table{
+    width: 97%;
+    margin: 5px;
+}
+div.col-lg-4>section.panel>div.weather-category>table td, 
+div.col-lg-4>section.panel>div.weather-category>table th{
+    border-right: 1px solid #D8D8D7;
+    text-align: center;
+}
+div.col-lg-4>section.panel>div.weather-category>table td:last-child, 
+div.col-lg-4>section.panel>div.weather-category>table th:last-child{
+    border-right: none;
+}
+div.col-lg-4>section.panel>div.weather-category{
+    margin-bottom: 0px;
+}
+div.col-lg-4>section.panel>footer.twt-footer{
+    height: 200px;
+}
+div.col-lg-4>section.panel>footer.twt-footer>header{
+    height: 15%;
+    background: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 130%;
+    text-align: center;
+    padding: 5px;
+}
+div.col-lg-4>section.panel>footer.twt-footer>textarea{
+    width: 100%;
+    height: 85%;
+    border: 1px solid #eee;
+    resize: none;
+    overflow-y: auto;
+    padding: 10px;
+    font-family: initial;
+    font-size: 130%;
+    color: rgba(148, 148, 148, 0.99);
+    text-align: justify;
+}
+
+/*******************************END Reply Feedback*******************************/

@@ -1,0 +1,152 @@
+.block_title{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'iCielPanton-Light',"Arial", sans-serif;
+    font-size: 28px;
+}
+
+.block_title_right{
+    font-family: 'iCielPanton-Black',"Arial", sans-serif;
+}
+
+.package{
+    height: 488px;
+    /*width: auto;*/
+    margin-top: 20px;
+    margin-left: 4.5%;
+}
+
+.package_plus{
+    /*margin-left: 12px;*/
+}
+
+.pack_first{
+    /*    margin-left: 7px;
+        margin-right: 12px;*/
+}
+
+.pack_last{
+    /*margin-left: 12px;*/
+}
+
+.pack_title{
+    padding-top: 13px;
+    color: #fff;
+    font-family: 'Roboto-Light',"Arial", sans-serif;
+    font-size: 23px;
+}
+
+.pack_title_right{
+    font-family: 'Roboto-Black',"Arial", sans-serif;
+}
+
+.pack_price{
+    /*font-size: 16px;*/
+    font-size: 14px;
+    font-family: 'Roboto-Light',"Arial", sans-serif;
+    padding-top: 3px;
+}
+
+.pack_price_left{
+    /*font-size: 22px;*/
+    font-size: 16px;
+    font-family: 'Roboto-Black',"Arial", sans-serif;
+}
+
+.pack_button{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5px;
+}
+
+.pack_button > a{
+    height: 46px;
+    line-height: 46px;
+}
+
+.pack_zone-1{
+    min-height: 206px;
+    min-width: 217px;
+    background-color: #fff;
+    margin-top: 117px;
+}
+
+.pack_zone-2{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: -307px;
+    background-color: #ebebeb;
+    min-height: 419px;
+}
+
+.pack_end_level{
+    border-width: 1px;
+    border-color: #a1a1a1;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.pack_info{
+    width: 207px;
+    font-size: 9px;
+    font-family: 'Roboto-Light',"Arial", sans-serif;
+    margin: 0 auto;
+}
+
+.pack_info tr{
+    height:30px;
+}
+
+.pack_info_left{
+    font-family: 'Roboto-Bold',"Arial", sans-serif;
+    font-size: 14px;
+    width: 90px;
+}
+
+.pack_info_middle{
+    width: 30px;
+    font-size: 14px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col-xs-15 {
+    width: 20%;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+    }
+    .package{
+        margin-left: 0;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+    }
+    .pack_button{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+    }
+    .pack_button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.slogan_banner {
+  clear: both;
+  margin-bottom: 20px;
+}

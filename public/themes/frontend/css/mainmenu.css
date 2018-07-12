@@ -1,0 +1,35 @@
+.logo_image_header{
+	padding-top: 28px;
+}
+
+.mainmenu_button{
+	padding-top: 28px;
+}
+
+.nav-right > li {
+    float: right;
+}
+
+.buttonmenu > li > a{
+    color: #999;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Roboto-Regular';
+}
+
+.buttonmenu > li > a:hover{
+    color: #000;
+    background-color: #ffffff;
+    
+}
+
+.slash{
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.fontdown > li > a{
+	font-weight:normal;
+}

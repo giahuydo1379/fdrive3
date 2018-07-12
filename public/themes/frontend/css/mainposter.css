@@ -1,0 +1,14 @@
+.icon_poster{
+    margin-top: -80px;
+}
+
+.img_poster{
+    margin-left: -15px;
+    /*height: 300px;*/
+}
+.icon_poster.last {
+    margin-left: 5px;
+}
+.icon_poster.first {
+    padding-left: 20px;
+}
